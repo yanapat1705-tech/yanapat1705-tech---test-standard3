@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ข้อมูลบุคลากร | วิทยาลัยเทคนิคตัวอย่าง</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">ข้ามไปเนื้อหาหลัก</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <svg class="brand-mark" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+        <path d="M24 4L44 14V18H4V14L24 4Z" fill="#C89B3C"/>
+        <rect x="8" y="20" width="5" height="18" fill="#E4C77A"/>
+        <rect x="17" y="20" width="5" height="18" fill="#E4C77A"/>
+        <rect x="26" y="20" width="5" height="18" fill="#E4C77A"/>
+        <rect x="35" y="20" width="5" height="18" fill="#E4C77A"/>
+        <rect x="4" y="40" width="40" height="4" fill="#C89B3C"/>
+      </svg>
+      <span class="brand-text">
+        <span class="th">วิทยาลัยเทคนิคตัวอย่าง</span><br>
+        <span class="sub">Sample Technical College</span>
+      </span>
+    </a>
+    <nav class="main-nav" aria-label="เมนูหลัก">
+      <ul>
+        <li><a href="index.html">หน้าหลัก</a></li>
+        <li><a href="administrators.html">ผู้บริหาร</a></li>
+        <li><a href="staff.html" aria-current="page">บุคลากร</a></li>
+        <li><a href="students.html">นักเรียน นักศึกษา</a></li>
+        <li><a href="programs.html">สาขาวิชา</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">กำลังคน</p>
+    <h1>ข้อมูลบุคลากร</h1>
+    <p>ครู เจ้าหน้าที่ และบุคลากรทางการศึกษา แยกตามแผนกวิชา</p>
+  </div>
+</div>
+
+<main id="main">
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <h2>สรุปจำนวนบุคลากร</h2>
+        <p>ข้อมูล ณ ปีการศึกษา 2569</p>
+      </div>
+      <table>
+        <caption>จำนวนบุคลากรแยกตามแผนกวิชา</caption>
+        <thead>
+          <tr><th>แผนกวิชา</th><th>ครูผู้สอน</th><th>เจ้าหน้าที่สนับสนุน</th><th>รวม</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>ช่างยนต์</td><td>10</td><td>1</td><td>11</td></tr>
+          <tr><td>ช่างไฟฟ้ากำลัง</td><td>9</td><td>1</td><td>10</td></tr>
+          <tr><td>ช่างอิเล็กทรอนิกส์</td><td>8</td><td>1</td><td>9</td></tr>
+          <tr><td>คอมพิวเตอร์ธุรกิจ</td><td>9</td><td>1</td><td>10</td></tr>
+          <tr><td>การบัญชี</td><td>7</td><td>1</td><td>8</td></tr>
+          <tr><td>สำนักงาน / ธุรการ</td><td>—</td><td>14</td><td>14</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <h2>บุคลากรตัวอย่างในแต่ละแผนก</h2>
+      </div>
+      <div class="grid grid-3">
+        <div class="card">
+          <div class="avatar"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="38" r="20" fill="#F7F5EF"/><path d="M15 90c5-25 25-35 35-35s30 10 35 35" fill="#F7F5EF"/></svg></div>
+          <div class="card-body">
+            <h3>นายตัวอย่าง ช่างเก่ง</h3>
+            <p class="role">หัวหน้าแผนกวิชาช่างยนต์</p>
+            <p>วุฒิ ค.อ.บ. วิศวกรรมเครื่องกล ประสบการณ์สอน 15 ปี</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="avatar"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="38" r="20" fill="#F7F5EF"/><path d="M15 90c5-25 25-35 35-35s30 10 35 35" fill="#F7F5EF"/></svg></div>
+          <div class="card-body">
+            <h3>นางสาวตัวอย่าง ไฟแรง</h3>
+            <p class="role">หัวหน้าแผนกวิชาช่างไฟฟ้ากำลัง</p>
+            <p>วุฒิ ค.อ.บ. วิศวกรรมไฟฟ้า ประสบการณ์สอน 12 ปี</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="avatar"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="38" r="20" fill="#F7F5EF"/><path d="M15 90c5-25 25-35 35-35s30 10 35 35" fill="#F7F5EF"/></svg></div>
+          <div class="card-body">
+            <h3>นายตัวอย่าง โค้ดดี</h3>
+            <p class="role">หัวหน้าแผนกวิชาคอมพิวเตอร์ธุรกิจ</p>
+            <p>วุฒิ วท.บ. เทคโนโลยีสารสนเทศ ประสบการณ์สอน 9 ปี</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <h4>วิทยาลัยเทคนิคตัวอย่าง</h4>
+      <address>123 ถนนตัวอย่าง ตำบลตัวอย่าง<br>อำเภอเมือง จังหวัดตัวอย่าง 50000<br>โทร. 0-5300-0000</address>
+    </div>
+    <div>
+      <h4>ลิงก์ด่วน</h4>
+      <ul>
+        <li><a href="administrators.html">ผู้บริหาร</a></li>
+        <li><a href="staff.html">บุคลากร</a></li>
+        <li><a href="students.html">นักเรียน นักศึกษา</a></li>
+        <li><a href="programs.html">สาขาวิชา</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>ติดต่อเรา</h4>
+      <p>อีเมล: info@example-technic.ac.th<br>เวลาทำการ: จันทร์–ศุกร์ 08:00–16:30 น.</p>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2569 วิทยาลัยเทคนิคตัวอย่าง — เว็บไซต์ตัวอย่างเพื่อการศึกษา</div>
+</footer>
+
+</body>
+</html>
